@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{{{ meta.inject().title.text() }}}
+	{{{ meta.inject().meta.text() }}}
+
+	<!-- {{{ meta.inject().link.text() }}} -->
+	<!-- <link data-vue-meta="1" rel="preload" href="/static/1080p/avif/1626359369651.avif" as="image"> -->
+	<link href=/dist/app.css rel=preload as=style>
+	<link href=http://orinice.pp.ua/static/style/bootstrap-grid.min.css rel=preload as=style>
+	<link href=http://orinice.pp.ua/static/style/uikit-rtl.min.css rel=preload as=style>
+	<link href=http://orinice.pp.ua/static/style/uikit.min.css rel=preload as=style>
+
+	<link href=/dist/app.js rel=preload as=script>
+	<!-- <link href=/static/script/uikit-core.min.js rel=preload as=script> -->
+	<link href=http://orinice.pp.ua/static/script/uikit.min.js rel=preload as=script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="preload" as=style>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="preload" as=style>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="/dist/app.css">
+	<link rel="stylesheet" href="http://orinice.pp.ua/static/style/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="http://orinice.pp.ua/static/style/uikit-rtl.min.css">
+	<link rel="stylesheet" href="http://orinice.pp.ua/static/style/uikit.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
+
+	<script src="https://cdn.jsdelivr.net/gh/zeknoss/vue-magnifier@v0.2.0/dist/js/vue-magnifier.js"></script>
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.jsdelivr.net/gh/zeknoss/vue-magnifier@v0.2.0/dist/css/vue-magnifier.css" media="screen" />
+</head>
+
+<body>
+	<div id="app">
+		<!--vue-ssr-outlet-->
+	</div>
+	<script src="/dist/app.js"></script>
+	<!-- <script src="/static/script/uikit-core.min.js"></script> -->
+	<script src="http://orinice.pp.ua/static/script/uikit.min.js"></script>
+</body>
+
+</html>

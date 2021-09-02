@@ -1,0 +1,42 @@
+{
+  "name": "adminpanel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "transliteration": "^2.1.11",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-no-ssr": "^1.1.1",
+    "vue-picture-input": "^2.1.6",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.2.0",
+    "vue-server-renderer": "^2.6.14",
+    "vue2-editor": "^2.10.2",
+    "vuex": "^3.4.0",
+    "yimo-vue-editor": "^1.1.7",
+    "yimo-vue-editor2": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^5.2.4",
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-plugin-router": "^4.4.0",
+    "@vue/cli-plugin-typescript": "^4.4.0",
+    "@vue/cli-plugin-unit-mocha": "^4.4.0",
+    "@vue/cli-plugin-vuex": "^4.4.0",
+    "@vue/cli-service": "^4.4.0",
+    "@vue/test-utils": "^1.0.3",
+    "chai": "^4.1.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.9.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
